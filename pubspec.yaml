@@ -1,7 +1,7 @@
 name: select_map_location
-description: A new Flutter package project.
+description: A flutter plugin to select Location from the Map using Open Street Map.
 version: 0.0.1
-homepage:
+homepage: https://github.com/komalAnIntl/select_map_location
 
 environment:
   sdk: '>=3.2.0-53.0.dev <4.0.0'
@@ -10,6 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_map: ^3.0.0
+  http: ^0.13.5
+  latlong2: ^0.8.1
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
 
 dev_dependencies:
   flutter_test:
