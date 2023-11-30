@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
             TextButton(
                 onPressed: () {
                   showModal(context);
-                  setState(() {});
                 },
                 child: const Text('Select Location')),
             Text(_address)
@@ -72,6 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 _address = pickedData.addressName;
 
                 Navigator.pop(context);
+                setState(() {});
               },
             ),
           );
