@@ -5,11 +5,9 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:geocoding/geocoding.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:latlong2/latlong.dart';
-import 'package:select_map_location/current_location.dart';
 import 'package:select_map_location/widgets/custom_button.dart';
 
 class CustomOpenStreetMapSearchAndPick extends StatefulWidget {
